@@ -1,0 +1,485 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+.container .main {
+  width: 100%;
+  height: 100vh;
+  background: rgba(198, 108, 73, 0.3);
+  background-image: url("../img/Untitled-1.svg");
+  background-size: cover;
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .main .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.container .main .header .logo {
+  margin: 165px;
+  display: flex;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.container .main .header .navigation {
+  display: flex;
+  margin-right: 400px;
+  width: 100%;
+  justify-content: flex-end;
+  margin-block-end: 10px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.container .main .header .navigation .home {
+  margin-left: 59px;
+}
+.container .main .header .navigation .about {
+  margin-left: 59px;
+}
+.container .main .header .navigation .skills {
+  margin-left: 59px;
+}
+.container .main .header .navigation .portfolio {
+  margin-left: 59px;
+}
+.container .main .header .navigation .contact {
+  margin-left: 59px;
+}
+.container .main .sheader {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 165px;
+  justify-content: center;
+}
+.container .main .hi {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  color: white;
+}
+.container .main .designer {
+  margin-top: 26px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+}
+.container .main .latest {
+  margin-top: 106px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: white;
+}
+.container .aboutblock {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  margin-left: 165px;
+  margin-top: 93px;
+  height: 544px;
+}
+.container .aboutblock .textab {
+  margin-top: 93px;
+  margin-bottom: 50px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 60px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+.container .aboutblock .lorem {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+.container .aboutblock .arcu {
+  margin-top: 40px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+.container .skillsblock {
+  height: 693px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #fffaf2;
+}
+.container .skillsblock .skills3 {
+  display: flex;
+  margin-top: 93px;
+  margin-left: -1520px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 60px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.container .skillsblock .man {
+  display: flex;
+  flex-flow: row;
+  margin-top: 86px;
+  margin-left: -1230px;
+}
+.container .skillsblock .colinf1 {
+  display: flex;
+  flex-flow: row;
+  margin-top: -340px;
+}
+.container .skillsblock .colinf1 .profile {
+  display: flex;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .colinf1 .ui {
+  display: flex;
+  margin-left: 131px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .skillsblock .colinf2 {
+  display: flex;
+  flex-flow: row;
+  margin-top: 65px;
+}
+.container .skillsblock .colinf2 .ux {
+  display: flex;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 130px;
+}
+.container .skillsblock .colinf2 .bars1 {
+  display: flex;
+  margin-left: 78px;
+}
+.container .skillsblock .colinf2 .bars1 .barfront1 {
+  position: relative;
+  background-color: #f5d6ab;
+  height: 24px;
+  width: 446px;
+}
+.container .skillsblock .colinf2 .bars1 .barback1 {
+  position: absolute;
+  background-color: #c66c49;
+  height: 24px;
+  width: 381px;
+}
+.container .skillsblock .colinf3 {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row;
+}
+.container .skillsblock .colinf3 .tools1 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: -250px;
+  margin-right: 143px;
+}
+.container .skillsblock .colinf3 .paper {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: -110px;
+}
+.container .skillsblock .colinf4 {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row;
+}
+.container .skillsblock .colinf4 .uid {
+  display: flex;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 130px;
+}
+.container .skillsblock .colinf4 .bars2 {
+  display: flex;
+  margin-left: 108px;
+}
+.container .skillsblock .colinf4 .bars2 .barfront2 {
+  position: relative;
+  background-color: #f5d6ab;
+  height: 24px;
+  width: 446px;
+}
+.container .skillsblock .colinf4 .bars2 .barback2 {
+  position: absolute;
+  background-color: #c66c49;
+  height: 24px;
+  width: 351px;
+}
+.container .skillsblock .colinf5 {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row;
+}
+.container .skillsblock .colinf5 .tools2 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: -250px;
+  margin-right: 143px;
+}
+.container .skillsblock .colinf5 .addobe {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: -250px;
+}
+.container .skillsblock .colinf6 {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row;
+}
+.container .skillsblock .colinf6 .front {
+  display: flex;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 130px;
+}
+.container .skillsblock .colinf6 .bars3 {
+  display: flex;
+  margin-left: 67px;
+}
+.container .skillsblock .colinf6 .bars3 .barfront3 {
+  position: relative;
+  background-color: #f5d6ab;
+  height: 24px;
+  width: 446px;
+}
+.container .skillsblock .colinf6 .bars3 .barback3 {
+  position: absolute;
+  background-color: #c66c49;
+  height: 24px;
+  width: 286px;
+}
+.container .skillsblock .colinf7 {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row;
+}
+.container .skillsblock .colinf7 .tools3 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: -250px;
+  margin-right: 143px;
+}
+.container .skillsblock .colinf7 .htmlcss {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: -250px;
+}
+.container .portfolioblock {
+  height: 822px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+}
+.container .portfolioblock .portfolio2 {
+  display: flex;
+  flex-flow: column;
+  margin-top: 93px;
+  margin-left: 165px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 60px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.container .portfolioblock .uxinf {
+  display: flex;
+  flex-flow: column;
+}
+.container .portfolioblock .uxinf .research {
+  margin-top: 208px;
+  margin-left: -97px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.container .portfolioblock .uxinf .lorem2 {
+  margin-left: -97px;
+  margin-top: 48px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+.container .portfolioblock .symbols {
+  display: flex;
+  flex-flow: row;
+  margin-top: 653px;
+  margin-left: -345px;
+}
+.container .portfolioblock .symbols .symbol1 {
+  margin-right: 14px;
+}
+.container .portfolioblock .images {
+  display: flex;
+  flex-flow: column wrap;
+}
+.container .portfolioblock .images .img1 {
+  margin-top: 274px;
+  margin-left: 435px;
+}
+.container .portfolioblock .images .img2 {
+  margin-top: -144px;
+  margin-left: 810px;
+}
+.container .portfolioblock .images .img3 {
+  margin-top: -70px;
+  margin-left: 435px;
+}
+.container .portfolioblock .images .img4 {
+  margin-top: -145px;
+  margin-left: 810px;
+}
+.container .lastblock {
+  width: 100%;
+  height: 528px;
+  display: flex;
+  background: #fffaf2;
+}
+.container .lastblock .getintouch {
+  display: flex;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 93px;
+  margin-left: 165px;
+}
+.container .lastblock .gitcol1 {
+  margin-left: -135px;
+  margin-top: 173px;
+  display: flex;
+  flex-flow: column;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.container .lastblock .gitcol1 .dribbble {
+  margin-bottom: 10px;
+}
+.container .lastblock .gitcol1 .behance {
+  margin-bottom: 10px;
+}
+.container .lastblock .gitcol1 .codepen {
+  margin-bottom: 10px;
+}
+.container .lastblock .gitcol1 .github {
+  margin-bottom: 10px;
+}
+.container .lastblock .gitcol2 {
+  margin-left: 308px;
+  margin-top: 173px;
+  display: flex;
+  flex-flow: column;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.container .lastblock .gitcol2 .linkedln {
+  margin-bottom: 10px;
+}
+.container .lastblock .gitcol2 .fac {
+  margin-bottom: 10px;
+}
+.container .lastblock .gitcol2 .inst {
+  margin-bottom: 10px;
+}
+.container .lastblock .gitcol3 {
+  margin-left: 685px;
+  margin-top: 173px;
+  display: flex;
+  flex-flow: column;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.container .lastblock .gitcol3 .mail {
+  margin-bottom: 14px;
+}
+.container .lastblock .imglast {
+  display: flex;
+  margin-top: 434px;
+  margin-left: 143px;
+}
+
+/*# sourceMappingURL=styles.css.map */
